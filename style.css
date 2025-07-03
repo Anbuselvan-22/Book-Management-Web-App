@@ -135,3 +135,22 @@ nav{
         color: white;
     }
 }
+@media (max-width:1080px) {
+    .show{
+        button{
+            width: 60px;
+            font-size: 20px;
+            height:60px;
+        }
+    }
+    .popupbox{
+        margin: auto auto auto 30px;
+        width: 450px;
+        input{
+            width: 400px;
+        }
+        textarea{
+            width: 400px;
+        }
+    }
+}
