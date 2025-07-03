@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B O O K S K Y 📖</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/booksky/images/booksky-removebg-preview.png">
+    <link rel="shortcut icon" href="/icons/booksky-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <h2>B O O K S K Y 📖 📚</h2>
+    </nav>
+    <div class="container">
+        <div>
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis molestiae facere consequuntur! Explicabo modi voluptate error cupiditate tempore. Alias culpa, quo eum facilis ad iusto.</p>
+            <button onclick="remove(event)">Delete</button>
+        </div>
+    </div>
+    <div class="show">
+        <button onclick="show()" style="font-size:40px;">+</button>
+    </div>
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <h2>Add Book</h2>
+        <input type="text" placeholder="Book Title" id="booktitle" required>
+        <input type="text" placeholder="Book Author" id="bookauthor" required>
+        <textarea name="" id="textarea" required>Short Description..</textarea>
+        <button onclick="add()" style="cursor: pointer;">ADD</button>
+        <button onclick="hide()" style="margin-left: 10px; cursor: pointer;">CANCEL</button>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
